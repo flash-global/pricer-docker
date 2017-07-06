@@ -32,8 +32,6 @@ RUN mkdir -p /var/www/intranet/BROUILLONS \
 
 EXPOSE 80
 
-WORKDIR /var/www
-
 ADD start.sh /start.sh
 RUN chmod 0755 /start.sh
 CMD ["bash", "start.sh"]
