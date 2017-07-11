@@ -1,6 +1,6 @@
 # pricer-docker
 
-This repo will be automatically build on docker hub.
+This repo will be automatically built on docker hub.
 
 ## How to use
 
