@@ -8,7 +8,7 @@ ENV APP_ENV dev
 RUN apt-get -qq update && \
     apt-get install -y apache2 libapache2-mod-php5 \
     php5-mysqlnd php5-xmlrpc php-soap php5-mcrypt php5-curl \
-    php5-gd php5-xdebug \
+    php5-gd php5-xdebug mysql-client \
     pdftk a2ps ghostscript htmldoc ssh \
     && rm -rf /var/lib/apt/lists/*
 
