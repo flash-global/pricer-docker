@@ -11,8 +11,6 @@ RUN apt-get -qq update && \
     php5-gd php5-xdebug mysql-client \
     pdftk a2ps ghostscript htmldoc ssh \
     php5-memcache \
-    memcached \
-    php5-memcached \
     && rm -rf /var/lib/apt/lists/*
 
 COPY config/000-default.conf /etc/apache2/sites-available/000-default.conf
